@@ -10,5 +10,6 @@ if ( correctGuess ) {
   document.write('<p><h1 style="text-align: center;">You guessed the number!</h1></p>');
   console.log('You guessed the number!');
 } else {
+  document.write(`<p><h1 style="text-align: center;">Sorry. The number was ${number}.</h1></p>`);
   console.log(`Sorry. The number was ${number}.`);
 }
